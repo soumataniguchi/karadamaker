@@ -1,0 +1,36 @@
+.header {
+  height: 80px;
+  width: 100vw;
+  background-color: rgb(255, 154, 154);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+
+  .icon{
+    line-height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .btn{
+    display: flex;
+    line-height: 80px;
+    margin-right: 30px;
+    font-size: 30px;
+
+
+    .edit{
+      margin-left: 20px;
+    }
+    .show_pic{
+      margin-left: 20px;
+    }
+    .logout{
+      margin-left: 20px;
+      margin-right: 30px;
+    }
+  }
+
+}
