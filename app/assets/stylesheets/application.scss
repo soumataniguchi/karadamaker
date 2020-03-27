@@ -1,11 +1,18 @@
 @import "reset";
 @import "messages";
 
+.wrapper{
+  width: 100vw;
+  background-color: rgba(245, 245, 245, 0.466);
 
-@import "header";
-@import "contents";
-@import "footer";
+  @import "header";
+  @import "contents";
+  // @import "footer";
+}
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "user";
+// @import "slick-theme"; 
+// @import "slick";
+// @import "carousel";

@@ -1,23 +1,11 @@
 .contents {
   display: flex;
   width: 100vw;
-  height: 250vh;
+  height: 284vh;
   overflow: scroll;
-  margin-top: 80px;
-
+  text-align: center;
 
   @import "main";
-
-  // .main {
-  //   background-color: rgb(139, 197, 139);
-  //   width: calc(100% - 300px);
-  // }
-
-
+  
   @import "side";
-
-  // .side {
-  //   background-color: rgb(151, 238, 231);
-  //   width: 300px;
-  // }
 }

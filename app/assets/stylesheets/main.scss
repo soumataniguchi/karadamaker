@@ -1,44 +1,82 @@
 .main {
-  background-color: rgb(170, 231, 170);
-  width: calc(100% - 300px);
-  padding: 35px 30px;
+  width: 100vw;
+  padding: 80px 30px;
   .menus{
 
-  
-    .menu1{
-      background-color:  rgb(99, 228, 99);
-      height: 185px;
+    .top-movie{
+      height: 500px;
       width: 100%;
-      margin-bottom: 25px;
+      margin-bottom: 130px;
       padding: 10px;
+      &__video{
+        height: 700px;
+      }
     }
-
-    .menu2{
-      background-color:  rgb(99, 228, 99);
-      height: 185px;
+    .concept{
+      background-color:  rgb(204, 203, 203);
+      height: 250px;
       width: 100%;
-      margin-bottom: 25px;
+      margin-bottom: 190px;
       padding: 10px;
-    }
-    .menu3{
-      background-color:  rgb(99, 228, 99);
-      height: 185px;
-      width: 100%;
-      margin-bottom: 25px;
-      padding: 10px;
-    }
-    .menu4{
-      background-color:  rgb(99, 228, 99);
-      height: 185px;
-      width: 100%;
-      margin-bottom: 25px;
-      padding: 10px;
-    }
+      line-height: 250px;
+      display: flex;
 
 
+      .kids{
+        background-color: yellowgreen;
+        height: 230px;
+        width: 24%;
+        float: left;
+        margin-right: 7px;
+        width: 100%;
+      }
+      .morning{
+        background-color: yellowgreen;
+        height: 230px;
+        width: 24%;
+        float: left;
+        margin-right: 7px;
+        width: 100%;
+      }
+      .everyday{
+        background-color: yellowgreen;
+        height: 230px;
+        width: 24%;
+        float: left;
+        margin-right: 7px;
+        width: 100%;
+      }
+      .family{
+        background-color: yellowgreen;
+        height: 230px;
+        width: 24%;
+        float: left;
+        width: 100%;
+      }
+    }
+
+    .activity-index{
+      background-color: rgb(204, 203, 203);
+      height: 350px;
+      width: 100%;
+      margin-bottom: 200px;
+      padding: 10px;
+      @import "swiper";
+    }
+
+    .activity-map{
+      background-color:  rgb(204, 203, 203);
+      height: 350px;
+      width: 100%;
+      margin-bottom: 100px;
+      padding: 10px;
+
+      // .img{
+      //   height: 100px;
+      //   width: 100px;
+      // }
+    }
   }
-
-
 }
 
 

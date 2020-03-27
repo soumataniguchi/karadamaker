@@ -1,11 +1,12 @@
 .main
   .menus
-
-    .menu1
-      今日のメニュー
-    .menu2
-      昨日のメニュー
-    .menu3
-      一昨日のメニュー
-    .menu3
-      一昨々日のメニュー
+    .top-movie
+      = video_tag("https://player.vimeo.com/external/377100374.sd.mp4?s=619b9449685007ccff8022062f5fe12930246e35&profile_id=139&oauth2_token_id=57447761", controls: false, autoplay: true, loop: true, muted: true, width: "960px", height: "600")
+    .concept
+      .kids
+      .morning
+      .everyday
+      .family
+    .activity-index
+      = render "swiper"
+    .activity-map
